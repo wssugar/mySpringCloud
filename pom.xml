@@ -11,6 +11,7 @@
     <modules>
         <module>admin</module>
         <module>Eurkea</module>
+        <module>rest</module>
     </modules>
 
     <parent>

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: admin
+    name: rest
   profiles:
     active: dev
   main:
@@ -12,10 +12,3 @@ spring:
   mvc:
     favicon:
       enabled: false
-feign:
-  hystrix:
-    enabled: true
-  okhttp:
-    enabled: true
-  httpclient:
-    enabled: false

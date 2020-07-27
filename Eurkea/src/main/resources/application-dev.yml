@@ -1,6 +1,6 @@
 server:
   host: localhost
-  port: 9701
+  port: 9101
 eureka:
   client:
     service-url:

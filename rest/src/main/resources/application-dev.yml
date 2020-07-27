@@ -1,0 +1,15 @@
+server:
+  port: 8085
+  context-path: /
+  max-http-header-size: 100000
+eurkea:
+  client:
+    service-url:
+      defaultZone: http://localhost:9101/eureka/
+  instance:
+    metadata-map:
+      cluster: rest
+      management:
+        context-path: /actuator
+    health-check-url-path: /actuator/health
+    prefer-ip-address: true

@@ -5,10 +5,10 @@ server:
 eurkea:
   client:
     serviceUrl:
-      defaultZone: http://root:root@localhost:9701/eureka/
+      defaultZone: http://root:root@localhost:9101/eureka/
   instance:
     metadata-map:
-      cluster: BITCHAIN-ADMIN
+      cluster: admin
       management:
         context-path: /actuator
     health-check-url-path: /actuator/health
