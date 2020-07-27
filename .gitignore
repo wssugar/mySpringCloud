@@ -1,0 +1,16 @@
+*.iws
+*.iml
+*.ipr
+*.log
+target/
+.settings
+.project
+.classpath
+.externalToolBuilders
+*.class
+*svn/
+.idea/
+*.jar
+~*
+eureka-service/src/main/resources/application-dev.yaml
+eureka-service/src/main/resources/application-prod.yaml
