@@ -1,0 +1,7 @@
+server:
+  host: localhost
+  port: 9701
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${server.host}:${server.port}/eureka/

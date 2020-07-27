@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bitchain-admin
+  profiles:
+    active: dev
+  main:
+    web-environment: true
+  servlet:
+    multipart:
+      max-request-size: 50MB #上传文件总的最大值
+      max-file-size: 50MB #单个文件的最大值
+  mvc:
+    favicon:
+      enabled: false
