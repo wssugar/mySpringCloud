@@ -11,7 +11,7 @@ public class TestFeignController {
 
     @RequestMapping("/sugar")
     public String sugar() {
-        String sugar = testFeignClient.sugarString();
-        return sugar;
+        String s = testFeignClient.sugarString();
+        return s;
     }
 }
